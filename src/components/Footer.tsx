@@ -7,16 +7,16 @@ const Footer = () => {
     <footer className='bg-gray-700'>
       <div className='flex justify-between'>
         <div className='footer-container'>
-          <h2>Isaac Ng</h2>
+          <h2 className='font-semibold'>Isaac Ng</h2>
           <p>Graduated High School Student</p>
         </div>
         <div className='footer-container'>
-          <h2>Contacts</h2>
+          <h2 className='font-semibold'>Contacts</h2>
           <p><b>Email:</b> isaacngcaasi@gmail.com</p>
           <p><b>Discord:</b> caasi.bun</p>
         </div>
         <div className='footer-container'>
-          <h2>Socials</h2>
+          <h2 className='font-semibold'>Socials</h2>
           <div className='flex items-center'>
             <a href="https://www.instagram.com/caasi.bun/">
             <button className='socials-button' type="button"><FaInstagram /></button>
