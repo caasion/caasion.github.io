@@ -16,10 +16,10 @@ export default function App() {
   }, []);
 
   return (
-    <div>
+    <div className='min-h-dvh flex flex-col'>
       <Header />
       
-      <main>
+      <main className='flex flex-col flex-1'>
         <Outlet />
       </main>
 
@@ -32,3 +32,5 @@ export default function App() {
 
 // Add attributions section
 // <a href="https://www.vecteezy.com/free-vector/bunny">Bunny Vectors by Vecteezy</a>
+
+// 

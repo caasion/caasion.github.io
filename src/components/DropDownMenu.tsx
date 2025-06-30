@@ -20,7 +20,7 @@ const DropDownMenu = ({ buttonLabel, items}: SingleLevelDropdownMenuProps) => {
     <div onMouseEnter={handleToggle} onMouseLeave={handleToggle}>
       <h2 className='nav-header'>{buttonLabel}</h2>
       {open && (
-        <div className='fixed'>
+        <div className='fixed bg-slate-700'>
           {items.map((item, index) => (
             <p key={index}><a href={item.url}>{item.title}</a></p>
           ))}
