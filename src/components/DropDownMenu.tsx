@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 interface SingleLevelDropdownMenuProps {
   buttonLabel: string;
@@ -15,6 +15,10 @@ const DropDownMenu = ({ buttonLabel, items}: SingleLevelDropdownMenuProps) => {
   const handleToggle = () => {
     setOpen((prev) => !prev);
   };
+
+  useEffect(() => {
+    setOpen(false);
+  }, [])
 
   return (
     <div onMouseEnter={handleToggle} onMouseLeave={handleToggle}>
