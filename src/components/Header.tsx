@@ -14,8 +14,8 @@ const NavBar = () => {
               {title: "Learner's Lodge", url: "/llx"}
             ]}
           />
-          <div><h2 className='nav-header'>Passions</h2></div>
-          <div><h2 className='nav-header'>Blog</h2></div>
+          <div><h2 className='nav-header'><a href="/passions">Passions</a></h2></div>
+          <div><h2 className='nav-header'><a href="/blog">Blog</a></h2></div>
         </nav>
         <div className=''><h2>Contact Me!</h2></div>
       </div>
