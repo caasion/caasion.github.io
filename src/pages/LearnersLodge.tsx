@@ -1,12 +1,12 @@
-import llxLogo from '../assets/llx/Wider Stars_BG LL.png'
+import llxLogo from '../assets/learners-lodge-logo.png';
 
-const IMG_PREFIX = "/src/assets/llx/"
+const IMG_PREFIX = "/llx/"
 
 const projects = [
     {
       title: "Focused vs. Diffuse Mode",
       desc: "Working smarter to understand and problem-solve with ease.",
-      img: "Wider Stars_BG LL.PNG",
+      img: "learners-lodge-logo.PNG",
       style: "style1",
       link: "https://docs.google.com/presentation/d/1XyvmcKJ2eZuh-LyisaNak5I9wvszcpmEvFeeteBK4OU/edit?usp=sharing"
     },
@@ -69,21 +69,21 @@ const projects = [
     {
       title: "Mastering Language Learning: Beyond the Basics",
       desc: "How do you progress after gaining basic proficiency in a language?",
-      img: "Wider Stars_BG LL.PNG",
+      img: "learners-lodge-logo.PNG",
       style: "style2",
       link: "https://docs.google.com/presentation/d/1NDDKJtJE0RM71Pcmo91-TSKKtWY879GJE23NeE1k6Qg/edit?usp=sharing"
     },
     {
       title: "Working as a Team & Learning Disabilities",
       desc: "How can we learn better by working with others? How can learning disabilities affect our learning?",
-      img: "Wider Stars_BG LL.PNG",
+      img: "learners-lodge-logo.PNG",
       style: "style6",
       link: "https://docs.google.com/presentation/d/18_8uXZs5-GQRgTgJgdHsqeZVMHWK6RHYj8zIBj_e2v4/edit?usp=sharing"
     },
     {
       title: "Chunking",
       desc: "A strategy to optimize our memory.",
-      img: "Wider Stars_BG LL.PNG",
+      img: "learners-lodge-logo.PNG",
       style: "style4",
       link: "https://docs.google.com/presentation/d/1NGxtdHEQZ7QXxotquw15jgc5vJhdGnoTVpgFgFS0DOU/edit?usp=sharing"
     }
