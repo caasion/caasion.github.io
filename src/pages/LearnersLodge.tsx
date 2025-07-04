@@ -1,5 +1,4 @@
 import llxLogo from '../assets/llx/Wider Stars_BG LL.png'
-import { MdInfoOutline } from "react-icons/md";
 
 const IMG_PREFIX = "/src/assets/llx/"
 
@@ -139,6 +138,8 @@ const LearnersLodge = () => {
 
               {/* Optional black overlay for better contrast */}
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition duration-300 z-0" />
+
+              {style}
             </a>
           ))}
         </div>
