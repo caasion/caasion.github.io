@@ -25,6 +25,6 @@ body {
   }
 
   .nav-header {
-    @apply m-4 hover:text-purple-500 ease-in-out duration-200;
+    @apply m-4 hover:text-purple-500 ease-in-out duration-200 text-2xl;
   }
 }
