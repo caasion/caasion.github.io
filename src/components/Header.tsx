@@ -11,6 +11,14 @@ const NavBar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      left: 0,
+      behavior: "smooth"
+    })
+  }
+
   return (
     <header className={`fixed top-0 z-100 transition-colors duration-300 ${isSolid ? 'bg-gray-900' : 'bg-transparent'} min-w-screen`}>
       <div className='flex items-center justify-between mx-6'>
@@ -20,7 +28,7 @@ const NavBar = () => {
           <div><h2 className='nav-header'><a href="/projects">Projects</a></h2></div>
           <div><h2 className='nav-header'><a href="/passions">Passions</a></h2></div>
         </nav>
-        <div className=''><h2>Contact Me!</h2></div>
+        <div className='nav-header'><h2 onClick={() => scrollToBottom()}>Contact Me!</h2></div>
       </div>
     </header>
   );
